@@ -110,7 +110,10 @@ class JClawApp(tk.Tk):
         try:
             while True:
                 kind, label, value = self.events.get_nowait()
-                self._write_oc((label + " completed:\n" if kind == "ok" else label + " failed:\n") + str(value))
+                if kind in ("ok", "local"):
+                    self._write_oc(label + " completed:\n" + str(value))
+                else:
+                    self._write_oc(label + " failed:\n" + str(value))
         except queue.Empty:
             pass
         self.after(120, self._poll_events)
