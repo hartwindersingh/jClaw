@@ -1,3 +1,5 @@
+# Developer: Hartwinder Singh
+# Copyright (c) 2026 Hartwinder Singh
 from jclaw_app.core.scanner import scan_project
 
 def test_scan_counts_files(tmp_path):
