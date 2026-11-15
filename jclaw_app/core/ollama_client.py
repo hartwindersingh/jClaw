@@ -1,3 +1,5 @@
+# Developer: Hartwinder Singh
+# Copyright (c) 2026 Hartwinder Singh
 import json
 import urllib.request
 import urllib.error
