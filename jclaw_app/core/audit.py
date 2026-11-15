@@ -1,3 +1,5 @@
+# Developer: Hartwinder Singh
+# Copyright (c) 2026 Hartwinder Singh
 from pathlib import Path
 from datetime import datetime, timezone
 import json
