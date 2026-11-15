@@ -76,17 +76,8 @@ py -m pip install -e ".[dev]"
 pytest
 ```
 
-## Author and Project Ownership
+## Project
 
-**jClaw Engineering Suite** is an independent software project developed and maintained by **Hartwinder Singh**.
+An independent software project bringing together software-engineering workflows, repository analysis, development assistance, testing and OpenClaw Gateway integration.
 
-The project brings together software-engineering workflows, repository analysis, development assistance, testing and OpenClaw Gateway integration within a unified desktop environment.
-
-- **Original Developer:** Hartwinder Singh
-- **Project Maintainer:** Hartwinder Singh
-- **Copyright:** © 2026 Hartwinder Singh
-- **Licence:** MIT
-
-The project source code, architecture, documentation and development history are maintained in this repository.
-
-For licensing and permitted reuse, refer to the accompanying MIT License.
+The source code, architecture and documentation are maintained in this repository; see the MIT License for licensing and reuse terms.
